@@ -39,3 +39,8 @@ _Note: Don't forget to change the sharing settings on your Google Doc._
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+## Code Walkthrough
+
+Please find the walkthrough of the code inside this google document\
+[walkthrough](https://docs.google.com/document/d/1UVxt_xX1kOTimkvdB7lTdOCsl0-uEw06oULep1fv-PY/edit?usp=sharing)

@@ -8,6 +8,7 @@ module.exports = function(app) {
   // Otherwise the user will be sent an error
   app.post("/api/login", passport.authenticate("local"), function(req, res) {
     res.json(req.user);
+    
   });
 
   // Route for signing up a user. The user's password is automatically hashed and stored securely thanks to
@@ -28,7 +29,9 @@ module.exports = function(app) {
 
   // Route for logging user out
   app.get("/logout", function(req, res) {
+    //logout is a method passport sets up for the user to logout and clear the session
     req.logout();
+    
     res.redirect("/");
   });
 
